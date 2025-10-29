@@ -1,0 +1,18 @@
+name: LegendaryWeapons
+version: 1.0.0
+main: com.legendary.weapons.LegendaryWeapons
+api-version: 1.21
+description: Legendary weapons plugin with custom abilities
+author: Luckyboy42
+
+commands:
+  legendaryweapons:
+    description: Give legendary weapons to players
+    usage: /legendaryweapons <player> <seismic|shadow|light|inferno>
+    permission: legendary.weapons
+    aliases: [lw, legweapons, legendweapons]
+
+permissions:
+  legendary.weapons:
+    description: Access to Legendary Weapons commands
+    default: op
